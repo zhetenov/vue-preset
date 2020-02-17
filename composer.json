@@ -1,0 +1,26 @@
+{
+    "name": "zhetenov/vue-preset",
+    "description": "Preset for vue-js",
+    "license": "MIT",
+    "keywords": ["laravel-vue", "vue-preset"],
+    "authors": [
+        {
+            "name": "Zhetenov Ralan",
+            "email": "rollwho@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zhetenov\\VuePreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhetenov\\VuePreset\\VuePresetServiceProvider"
+            ]
+        }
+    }
+}
